@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Environment variables and secrets
+.env
+*.env
+config/settings.ini
+config/secrets.json
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+
+
+# Docker and deployment
+docker-compose.override.yml
+*.dockerignore
+
+# Cache files
+*.cache
+*.pyc
+*.pyo
+__pycache__/
+*.mypy_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
